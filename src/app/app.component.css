@@ -16,6 +16,7 @@ section{
   background-color: white;
 }
 #frst-div{
+  display: flex;
   padding: 0 25px;
 }
 #scnd-div{
@@ -47,11 +48,10 @@ h1{
   border: 3px solid #0000007a;
   float: left;
   padding: 8px;
-  width: 60%;
-
+  flex-grow: 2;
 }
 #task:focus{
-  width: 80%;
+  flex-grow: 9;
   border-color: #009688;
   outline: none;
 }
@@ -67,6 +67,7 @@ button{
   background-color: #009688;
   box-shadow: 0 0 10px 2px #009688a6;
   color: white;
+  flex-grow: 1;
 }
 button:hover{
   cursor: pointer;
